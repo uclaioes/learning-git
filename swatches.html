@@ -6,42 +6,48 @@
     <meta charset="utf-8" />
     <meta name="format-detection" content="telephone=no">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="css/stylesheet.css" />
+    <link rel="stylesheet" href="css/style.css" />
 
-    <style type="text/css">
-      main {
-        grid-template-columns: 1fr;
-      }
-      .palette {
-        display: grid;
-        grid-gap: 2vw;
-        grid-template-columns: repeat(6, 1fr);
-      }
-      .swatch {
-        align-items: center;
-        display: grid;
-        grid-gap: 5px;
-        grid-template-areas:
-          "swatch"
-          "values";
-        grid-template-columns: 1fr;
-        grid-template-rows: 1fr;
-        margin-bottom: 1em;
-      }
-      .swatch:last-child {
-        border-bottom: 0;
-      }
-      .swatch > div:first-child {
-        grid-area: swatch;
-        height: 75px;
-        justify-self: left;
-        width: 200px;
-      }
-      .swatch div:last-child {
-        font-size: var(--font-size-x-small);
-        grid-area: values;
-        height: 100px;
-      }
+<style type="text/css">
+main {
+    grid-template-columns: 1fr;
+}
+
+.palette {
+    display: grid;
+    grid-gap: 2vw;
+    grid-template-columns: repeat(6, 1fr);
+}
+
+.swatch {
+    align-items: center;
+    display: grid;
+    grid-gap: 2vw;
+    grid-template-areas:
+        "swatch"
+        "values";
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    margin-bottom: 2em;
+}
+
+.swatch:last-child {
+    border-bottom: 0;
+}
+
+.swatch > div:first-child {
+    grid-area: swatch;
+    height: 75px;
+    justify-self: left;
+    width: 200px;
+}
+
+.swatch div:last-child {
+    font-size: var(--font-size-x-small);
+    grid-area: values;
+    height: 100px;
+}
+
     </style>
   </head>
 
