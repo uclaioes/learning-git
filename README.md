@@ -1,6 +1,10 @@
 # Learning Git 
 **A beginners guide to learning git for humans** 
 
+## Review settings  
+
+- [github pages](https://uclaioes.github.io/learning-git/)
+
 ## Configuring Git
 Git has a number of configuration options. At this stage we’re concerned with two global settings: our default name and email address. This will ensure that any commits we make are associated with our details. It’s good practice to do this as later down the line, when we’re working with other people, we’ll want to know who’s committed what:
 
@@ -146,6 +150,8 @@ Branching involves diverging from your main line of development and continuing t
 `$ git checkout master`
 
 `git checkout -b [name_of_your_new_branch]`
+
+`git checkout -b gh-pages`
 
 Push the branch to Github:
 
