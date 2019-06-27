@@ -4,7 +4,7 @@
 ## Configuring Git
 Git has a number of configuration options. At this stage we’re concerned with two global settings: our default name and email address. This will ensure that any commits we make are associated with our details. It’s good practice to do this as later down the line, when we’re working with other people, we’ll want to know who’s committed what:
 
-`$ git config --global user.name "Your Name"`
+`$ git config --global user.name "Your Name"`  
 `$ git config --global user.email "your.name@example.com"`
 
 These values only need to be set once. Git will use them from now on.
